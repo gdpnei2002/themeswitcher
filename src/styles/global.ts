@@ -7,9 +7,9 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: #f4f5f5;
+    background: ${props => props.theme.colors.background};
     font-size: 14px;
-    color: #333;
+    color: ${props => props.theme.colors.text};
     font-family: sans-serif;
   }
 `;
