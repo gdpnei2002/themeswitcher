@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header";
+import { GlobalStyleComponent } from "styled-components";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-
+      <Header />
     </div>
   );
 }
